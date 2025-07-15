@@ -27,3 +27,6 @@ config/application-dev.yml
 # 日志和缓存
 **/hs_err_pid*
 **/*.iml
+/.idea/*
+/taco-cloud/target/*
+/.vscode/*
