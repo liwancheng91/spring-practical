@@ -1,0 +1,29 @@
+# 构建输出
+**/target/    # Maven
+**/build/     # Gradle
+**/bin/
+/**/out/
+
+# 本地配置文件
+*.local
+.env
+config/application-dev.yml
+
+# 日志文件
+*.log
+**/logs/
+
+# 系统文件
+**/.DS_Store      # macOS
+**/Thumbs.db      # Windows
+**/.idea/         # JetBrains IDE
+**/.vscode/       # VS Code
+
+# Maven/Gradle
+**/.mvn/
+**/mvnw
+**/mvnw.cmd
+
+# 日志和缓存
+**/hs_err_pid*
+**/*.iml
